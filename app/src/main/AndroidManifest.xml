@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name="com.example.mercado1.B2BForm"
+            android:exported="false" />
+        <activity
             android:name=".B2B"
             android:exported="false" />
         <activity
