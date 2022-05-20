@@ -12,7 +12,7 @@
         android:layout_width="324dp"
         android:layout_height="81dp"
         android:layout_marginStart="107dp"
-        android:layout_marginTop="77dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="118dp"
         android:text="Food Safety"
         android:textColor="#ffff"
@@ -27,11 +27,12 @@
         android:id="@+id/imageView"
         android:layout_width="348dp"
         android:layout_height="481dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="44dp"
         android:src="@drawable/foods"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -67,5 +68,17 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/fav"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn about our food safety process"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

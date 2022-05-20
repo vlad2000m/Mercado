@@ -6,16 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class B2B extends AppCompatActivity {
 
-    Button b1;
+    TextView b1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_b2_b);
-        b1=(Button)findViewById(R.id.btnToForm);
+        b1=(TextView)findViewById(R.id.btnToForm);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
