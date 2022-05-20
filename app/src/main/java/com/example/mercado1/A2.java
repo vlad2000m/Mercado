@@ -49,4 +49,9 @@ public class A2 extends AppCompatActivity {
         startActivity(i1);
     }
 
+
+    public void sdgs(View view) {
+        Intent i1 = new Intent(this, activity_sdg.class);
+        startActivity(i1);
+    }
 }
