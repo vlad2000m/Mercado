@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/actback"
+    android:background="@drawable/bacfruits"
     tools:context=".A3">
 
 
@@ -60,48 +60,30 @@
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="437dp"
-        android:layout_height="572dp"
-        android:layout_marginTop="190dp"
-        android:src="@drawable/backg2"
+    <ImageButton
+
+        android:id="@+id/imageButton2"
+        android:layout_width="53dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="36dp"
+        android:background="#0000"
+        android:src="@drawable/plus"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
 
+        android:id="@+id/imageButton"
         android:layout_width="53dp"
         android:layout_height="48dp"
-        android:layout_marginStart="334dp"
-        android:layout_marginTop="196dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="328dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="130dp"
         android:background="#0000"
         android:src="@drawable/plus"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-
-        android:layout_width="53dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="334dp"
-        android:layout_marginTop="446dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="78dp"
-        android:background="#0000"
-        android:src="@drawable/plus"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -109,17 +91,13 @@
         android:id="@+id/imageButton7"
         android:layout_width="53dp"
         android:layout_height="48dp"
-        android:layout_marginStart="171dp"
-        android:layout_marginTop="446dp"
-        android:layout_marginEnd="214dp"
-        android:layout_marginBottom="78dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="130dp"
         android:background="#0000"
         android:onClick="plus"
         android:src="@drawable/plus"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -127,16 +105,12 @@
         android:id="@+id/q4"
         android:layout_width="53dp"
         android:layout_height="48dp"
-        android:layout_marginStart="171dp"
-        android:layout_marginTop="196dp"
-        android:layout_marginEnd="214dp"
-        android:layout_marginBottom="328dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="380dp"
         android:background="#0000"
         android:src="@drawable/plus"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
