@@ -8,6 +8,7 @@
     tools:context=".MeetFr">
 
     <TextView
+        android:id="@+id/textView15"
         android:layout_width="367dp"
         android:layout_height="62dp"
         android:layout_marginStart="44dp"
@@ -20,18 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="437dp"
-        android:layout_height="572dp"
-        android:layout_marginTop="190dp"
-        android:src="@drawable/fr11"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -67,5 +56,16 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/fav"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="369dp"
+        android:layout_height="544dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/farmerpic" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
