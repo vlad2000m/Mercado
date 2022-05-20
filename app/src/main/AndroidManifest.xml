@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
             android:name=".activity_sdg"
             android:exported="false" />
         <activity
